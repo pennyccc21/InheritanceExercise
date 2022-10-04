@@ -1,39 +1,31 @@
-﻿using System;
+﻿using Inheritance;
+using Microsoft.VisualBasic;
+using System;
+// TODO Be sure to follow best practice when creating your classes
 
-namespace Inheritance
+// Create a class Animal
+// give this class 4 members that all Animals have in common
+
+// Create a class Bird
+// give this class 4 members that are specific to Bird
+// Set this class to inherit from your Ani
+
+var myBird = new Bird();
+myBird.WingColor = "blue";
+myBird.IsAlive = true;
+myBird.CanFLy = true;
+myBird.BeakLength = 3.5;
+
+new Reptile ()
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // TODO Be sure to follow best practice when creating your classes
-
-            // Create a class Animal
-            // give this class 4 members that all Animals have in common
+   IsColdBlooded = true,
+   Habitat = "Swamp",
+   CanKill = true,
+   CanGrowTail = true,
 
 
-            // Create a class Bird
-            // give this class 4 members that are specific to Bird
-            // Set this class to inherit from your Animal Class
-
-            // Create a class Reptile
-            // give this class 4 members that are specific to Reptile
-            // Set this class to inherit from your Animal Class
-
-
-
-
-            /*Create an object of your Bird class
-             *  give values to your members using the object of your Bird class
-             *  
-             * Creatively display the class member values 
-             */
-
-            /*Create an object of your Reptile class
-             *  give values to your members using the object of your Reptile class
-             *  
-             * Creatively display the class member values 
-             */
-        }
-    }
+             
+             
+             
+             
 }
